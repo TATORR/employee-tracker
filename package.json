@@ -1,0 +1,31 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Tracks employees",
+  "main": "schema.sql",
+  "dependencies": {
+    "console-table-printer": "^2.10.0",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " npm jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TATORR/employee-tracker.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
+  "author": "TATORR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TATORR/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/TATORR/employee-tracker#readme"
+}
